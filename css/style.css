@@ -464,3 +464,37 @@ img {
             
          .module-card strong {
              color: #38bdf8;               }
+
+/* MOBILE RESPONSIVE FIX */
+
+@media (max-width: 768px) {
+
+.features{
+grid-template-columns:1fr;
+padding:30px 20px;
+}
+
+.feature{
+padding:20px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.nav-links{
+gap:12px;
+font-size:14px;
+}
+
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
